@@ -1,0 +1,17 @@
+body {
+  background-color: #F5F5F5;
+  margin-top: 100px;
+}
+
+h1, h4 {
+  color: #555;
+}
+
+blockquote {
+  margin: 30px auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 30px;
+}
