@@ -1,0 +1,21 @@
+##
+# Blocked hosts
+#
+# All these websites will be run to 127.0.0.1 when you run
+#   `sudo gsd on`
+# Add any other habitual time sucks to the file, then run
+#   `install_gsd` and enjoy super fun productivity.
+
+www.facebook.com
+facebook.com
+www.9gag.com
+9gag.com
+www.twitter.com
+twitter.com
+www.youtube.com
+youtube.com
+www.pinterest.com
+pinterest.com
+www.reddit.com
+reddit.com
+news.ycombinator.com

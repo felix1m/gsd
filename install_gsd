@@ -1,0 +1,26 @@
+#!/bin/bash
+#
+#   Installs `gsd`.
+
+function install {
+    echo "Installing:"
+
+    echo "    Copying gsd to /usr/bin/..."
+    cp gsd /usr/bin/gsd
+
+    echo "    Copying block list to /etc/hosts.blocked..."
+    cp blocked_sites /etc/hosts.blocked
+
+    echo "Done."
+    echo "------------"
+    echo
+    gsd -h
+    exit
+}
+
+if [ $UID -ne 0 ]; then
+    echo "usage: 'sudo sh install_gsd'" >&2
+    exit 2
+fi
+
+install
